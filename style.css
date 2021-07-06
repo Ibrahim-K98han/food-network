@@ -124,3 +124,21 @@ p{
 .item2 p{
     margin-top: -70px;
 }
+footer{
+    text-align: center;
+    background-color: rgb(20, 20, 20);
+    height: 300px;
+    margin-bottom: 10px;
+    margin-top: 150px;
+}
+footer h2{
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 40px;
+    color: gray;
+}
+footer p{
+    color: white;
+    margin-top: 40px;
+    font-size: 20px;
+}
