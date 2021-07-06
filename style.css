@@ -1,5 +1,6 @@
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Bona Nova', serif;
+font-family: 'Poppins', sans-serif;
     margin: 0;
 }
 .color-orange{
@@ -11,6 +12,8 @@ body{
 .top-section{
     display: flex;
     padding-left: 50px;
+    margin-bottom: 150px;
+    margin-top: 100px;
 }
 .half-width{
     width: 50%;
@@ -21,11 +24,10 @@ body{
 h1{
     font-size: 60px;
     font-weight: 700;
-    margin-top: 200px;
+    color: gray;
 }
 p{
-    font-size: 30px;
-    color: gray;
+    font-size: 20px;
     margin-bottom: 100px;
 }
 .link-button{
@@ -34,5 +36,48 @@ p{
     border-radius: 50px;
     color: white;
     font-size: 20px;
+    font-weight: 700;
     text-decoration: none;
+}
+
+.middle-section{
+    display: flex;
+    background-image: url(images/shapes/frame1.png);
+    background-repeat: no-repeat;
+}
+.middle-width{
+    width: 50%;
+}
+.middle-width img{
+    width: 70%;
+}
+.middle-width p{
+    margin-right: 50px;
+}
+#about{
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 100px;
+    color: gray;
+}
+.recipies-area h1{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 40px;
+}
+.recipies-area p{
+    font-size: 20px;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.recips-item{
+    display: flex;
+    padding: 10px;
+}
+.item{
+    width: 20%;
+}
+.item img{
+    width: 50%;
 }
